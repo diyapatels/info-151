@@ -1,0 +1,36 @@
+/* =============
+    Newsletter
+============= */
+
+#newsletter{
+    background-color: var(--black);
+    color: var(--gray);
+    
+}
+h2{
+    color: var(--white);
+}
+
+form{ 
+    border: 1px solid var(--gray);
+
+    display: inline-block;
+    border-radius: 5px;
+
+    input{
+        border: none;
+        background-color: var(--black);
+        margin-left: 10px;
+    }
+}
+
+section{
+
+}
+#footer-box{
+    padding: 25px;
+    display: inline-block;
+    
+}
+    
+
