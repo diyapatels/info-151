@@ -405,7 +405,7 @@ textarea {
 /* =============
     Newsletter
 ============= */
-#newsletter {
+.newsletter {
   background-color: var(--black);
   color: var(--gray);
 }
@@ -425,7 +425,7 @@ form input {
   margin-left: 10px;
 }
 
-#footer-box {
+.footer-box {
   padding: 25px;
   display: inline-block;
 }
