@@ -4,10 +4,6 @@
 header{
     nav{
         ul{
-            .list{
-                position: relative;
-                top: 20px;
-            }
             li{
                 a{
                    color: var(--white);
@@ -18,12 +14,11 @@ header{
             }
             #trial{
                 a{
-                    font-size: rem-calc(18);
 
                 }
 
             }
-            #home{
+            .selected{
                 a{
                     color: var(--blue);
                     font-size: rem-calc(18);
