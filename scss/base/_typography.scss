@@ -1,15 +1,17 @@
 /* =============
     Typography
 ============= */
+body{
+    font-family: 'Inter', sans-serif;
+}
 h1,h3,h4,h5{
     margin: 0;
     padding: 0;
-
 }
 
 h2{
     margin-top: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 p{
@@ -21,5 +23,10 @@ p{
 ul{
     margin: 0;
     padding: 0;
+    list-style: none;
+    li{
+        padding: 10px;
+    }
+
 
 }
