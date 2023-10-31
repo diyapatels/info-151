@@ -440,7 +440,7 @@ nav ul {
 }
 nav ul li {
   list-style: none;
-  margin-left: 29px;
+  margin-left: 50px;
 }
 nav ul li a:link, nav ul li a:visited {
   color: var(--white);
@@ -492,7 +492,7 @@ header nav ul .selected a {
     Hero
 ============= */
 #hero {
-  margin-top: 78px;
+  margin-top: 158px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 45% auto;
@@ -517,7 +517,7 @@ header nav ul .selected a {
 }
 
 aside img {
-  margin-top: -60px;
+  margin-top: -70px;
   margin-left: 50px;
   height: 530px;
   width: 720px;
