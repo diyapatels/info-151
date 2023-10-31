@@ -4,12 +4,17 @@
 
 a{
     text-decoration: none;
+    display: inline-block;
+
+
+
 }
 
 nav{
     ul{
         display: flex;
         justify-content: flex-end;
+        align-items: center;
         li{
             list-style: none;
             margin-left: 29px;

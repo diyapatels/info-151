@@ -2,12 +2,26 @@
     Header
 ============= */
 header{
+    display: grid;
+    grid-template-columns: 30% auto;
+
+
+
+    #logo-container{
+        display: flex;
+        align-items: center;
+
+
+
+
+    }
     nav{
         ul{
             li{
                 a{
                    color: var(--white);
                    font-size: rem-calc(18);
+
 
 
                 }
