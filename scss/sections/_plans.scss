@@ -4,13 +4,23 @@
 
 #plans-intro{
     text-align: center;
-    margin-top: 155px;
+    margin-top: 60px;
     margin-bottom: 60px;
+
+    h2{
+        font-size: rem-calc(44);
+    }
 
 
     p{
         font-size: rem-calc(22);
     }
+}
+
+#main-grid-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
 section{
@@ -34,19 +44,17 @@ section{
 
 .card1{
     text-align: center;
-    padding: 70px 50px;
     border: 0.5px solid var(--gray);
     border-radius: 10px;
-
-    // visuals for week 4!
-    display: inline-block;
     border: none;
     box-shadow: 0px 30px 50px 0px #03032510;
+    height: 420px;
+    width: 360px;
+    padding-top: 50px;
     }
 
 #card2{
     text-align: center;
-    padding: 70px 50px;
     h4{
         color: var(--white);
     }
@@ -54,8 +62,11 @@ section{
     border-radius: 10px;
     background-color: var(--purple);
     color: var(--white);
-    // visuals for week 4!
-    display: inline-block;
     border: none;
     box-shadow: 0px 30px 50px 0px #03032510;
+    height: 420px;
+    width: 360px;
+    padding-top: 50px;
+    background-image: linear-gradient(to bottom, var(--purple) 35%, var(--white) 35%);
+
 }
