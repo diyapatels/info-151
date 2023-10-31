@@ -4,8 +4,15 @@
 #hero{
 
     margin-top: 78px;
+    display: grid;
+    grid-template-columns: 45% auto;
+    
+    
+    
+    
     div{
-        h1{
+        
+        h2{
             font-size: rem-calc(62);
         }
 
@@ -28,7 +35,22 @@
     ul{
         font-size: rem-calc(20);
         margin-top: 25px; 
+        list-style: none;
+
 
     }
 }
+
+aside{
+    img{
+        margin-top: -60px; 
+        margin-left: 50px;
+        height: 530px;
+        width: 720px;
+
+    
+    }
+
+}
+
 

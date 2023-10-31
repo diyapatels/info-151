@@ -351,6 +351,10 @@ body main #main-grid-item {
   grid-area: main-grid-item;
 }
 
+#validation-button {
+  text-align: center;
+}
+
 /* =============
     Typography
 ============= */
@@ -392,6 +396,7 @@ button {
 .blue-btn:hover {
   background-color: var(--white);
   color: var(--purple);
+  list-style: none;
 }
 
 /* =============
@@ -488,8 +493,12 @@ header nav ul .selected a {
 ============= */
 #hero {
   margin-top: 78px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 45% auto;
+  grid-template-columns: 45% auto;
 }
-#hero div h1 {
+#hero div h2 {
   font-size: 3.875rem;
 }
 #hero div #hero-title-container {
@@ -504,4 +513,12 @@ header nav ul .selected a {
 #hero ul {
   font-size: 1.25rem;
   margin-top: 25px;
+  list-style: none;
+}
+
+aside img {
+  margin-top: -60px;
+  margin-left: 50px;
+  height: 530px;
+  width: 720px;
 }
