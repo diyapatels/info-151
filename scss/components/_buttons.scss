@@ -10,4 +10,14 @@ button{
     padding: 10px 30px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+
+.blue-btn:hover{
+    background-color: var(--gray);
+    color: var(--white);
+
+
 }
