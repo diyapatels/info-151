@@ -335,17 +335,25 @@ template {
 /* =============
     Base
 ============= */
-#validation-button {
-  margin-top: 60px;
-  text-align: center;
-}
-
 ul {
   margin: 0;
   padding: 0;
 }
 ul li {
   list-style: none;
+}
+
+#validation-button {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /* =============
