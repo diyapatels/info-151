@@ -82,4 +82,28 @@ function hideSignInModal(){
 
 signInBtn.addEventListener("click", showSignInModal);
 closeSignUpModalBtn.addEventListener("click", hideSignInModal);
-signInContainer.addEventListener("click", hideSignInModal);
+
+
+/* =============
+    Sign Up
+============= */
+var signUpBtn = document.querySelector("#sign-up-button");
+var signUpContainer =  document.querySelector("#signUp-container");
+var closeSignUpModalBtn= document.querySelector("#cancel-sign-up-modal-btn");
+
+
+function showSignUpModal(){
+    console.log("show modal now");
+    signUpContainer.classList.add("show-signUp-container");
+    mainNav.classList.remove("showMainNav");
+    signInUpContainer.classList.remove("showSignUp");
+
+}
+
+function hideSignUpModal(){
+    signUpContainer.classList.remove("show-signUp-container");
+
+}
+
+signUpBtn.addEventListener("click", showSignUpModal);
+closeSignUpModalBtn.addEventListener("click", hideSignUpModal);

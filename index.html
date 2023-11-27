@@ -9,11 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Week 7 - Step 4 - JS</title>
+    <title>Week 8/9 Sign Up Form</title>
 </head>
 
 <body>
-    <section id="signIn-container">
+    <div id="signIn-container">
         <form action="#">
             <div id="close-button-container">
                 <button class="close-btn" id="close-sign-up-modal-btn"><i class="fa-solid fa-xmark"></i></button>
@@ -24,7 +24,26 @@
                 <button class="SignUp-btn">Sign In</button>
             </div>
         </form>
-    </section>
+    </div>
+
+    <div id="signUp-container">
+        <form action="#">
+            <div id="cancel-button-container">
+                <button class="close-btn" id="cancel-sign-up-modal-btn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Address">
+            <input type="text" placeholder="State">
+            <input type="text" placeholder="Zip Code">
+            <input type="text" placeholder="Phone Number">
+            <input type="text" placeholder="Email">
+            <div id="send-button-container">
+                <button class="SignUp-btn" id="send-sign-up-modal-btn">Send</button>
+            </div> 
+        </form>      
+    </div>
+           
     
     <header>
         <div id="logo-container">
@@ -46,7 +65,7 @@
                 <li>
                     <div id="button-container">
                         <button class="SignIn-btn" id="sign-in-button">Sign In</button>
-                        <button class="SignUp-btn">Sign Up</button>
+                        <button class="SignUp-btn" id="sign-up-button">Sign Up</button>
                     </div>
                 </li>
               
