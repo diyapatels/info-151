@@ -1,3 +1,30 @@
+Fancybox.bind()
+
+// const container = document.getElementById("myCarousel");
+const container = document.querySelector("#myCarousel");
+
+const options = { infinite: true };
+
+new Carousel(container, options);
+
+AOS.init();
+
+var element = document.querySelector('.item');
+
+element.style.height = '1000px'; 
+
+element.style.transition = 'height 0.3s ease';
+
+var multiple = new Multiple({
+  selector: '.item',
+  background: 'linear-gradient(#ffffff, #024A58)'
+
+
+});
+
+
+
+
 /* =============
     Navigation
 ============= */

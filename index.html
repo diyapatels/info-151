@@ -8,12 +8,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/multiple.js/0.0.1/multiple.css" integrity="sha512-oXriCA6uhRjv4Lk/s7ViqAnb6SMDN4Bzaup0ijGV9GdpKtJ202SZhwtqDSq5YB45gVfVwnDjMqg2KeST2HCKgg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href="./multiple.css" rel="stylesheet">
+
+
+
     <link rel="stylesheet" href="css/styles.css">
-    <title>Week 8/9 Sign Up Form</title>
+    <title>Week 10 FancyApps</title>
 </head>
 
-<body>
-    <div id="signIn-container">
+<body class="item">
+    <div id="signIn-container" >
         <form action="#">
             <div id="close-button-container">
                 <button class="close-btn" id="close-sign-up-modal-btn"><i class="fa-solid fa-xmark"></i></button>
@@ -58,7 +71,7 @@
         </div>
         <nav id="mainNav">
             <ul>
-                <li><a href="#">About us</a></li>
+                <li><a href="#">About us </a></li>
                 <li><a href="#">Project</a></li>
                 <li><a href="#">Impact</a></li>
                 <li><a href="#">Locations</a></li>
@@ -66,6 +79,7 @@
                     <div id="button-container">
                         <button class="SignIn-btn" id="sign-in-button">Sign In</button>
                         <button class="SignUp-btn" id="sign-up-button">Sign Up</button>
+                        
                     </div>
                 </li>
               
@@ -80,12 +94,65 @@
 
     </div>
 
+    <section id="fancybox">
+        <div id="fb-grid-item">
+            <h1>Fancybox</h1>
+            <ul>
+                <li>
+                    <a href="img/image1.jpeg" data-fancybox, data-fancybox="gallery-1"> <img src="img/image1.jpeg" data-aos="flip-right"/></a>  
+                </li>
+                <li>
+                    <a href="img/image2.jpeg" data-fancybox, data-fancybox="gallery-1"><img src="img/image2.jpeg" data-aos="flip-right"/></a>  
+                </li>
+                <li>
+                    <a href="img/image3.jpeg" data-fancybox, data-fancybox="gallery-1"><img src="img/image3.jpeg" data-aos="flip-right"/></a>  
+                </li>
+                <li>
+                    <a href="img/image4.jpeg" data-fancybox, data-fancybox="gallery-1"><img src="img/image4.jpeg" data-aos="flip-right"/></a>  
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="item" id="fancyCarousel">
+        <div id="fc-grid-item">
+            <h1>Fancy Carousel</h1>
+            <div class="f-carousel" id="myCarousel">
+                <!-- <div class="f-carousel__slide"><img src="img/image1.jpeg"></div>
+                <div class="f-carousel__slide"><img src="img/image2.jpeg"></div>
+                <div class="f-carousel__slide"><img src="img/image3.jpeg"></div>
+                <div class="f-carousel__slide"><img src="img/image4.jpeg"></div> -->
+                
+                <div class="f-carousel__slide"><div id="fc-1" class="slide"></div></div>
+                <div class="f-carousel__slide"><div id="fc-2" class="slide"></div></div>
+                <div class="f-carousel__slide"><div id="fc-3" class="slide"></div></div>
+                <div class="f-carousel__slide"><div id="fc-4" class="slide"></div></div>
+
+              </div>
+              
+        </div>
+    </section>
+
+    
+
+
+
     <div id="validation-btn">
         <a href=" https://validator.w3.org/nu/?doc=https://week-7-step-4-js--info-151-diya.netlify.app/" target="_blank">
             <img src="img/html-logo.svg" alt="Valid HTML 5">
             </a>
     </div>
+
     
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/multiple.js/0.0.1/multiple.min.js" integrity="sha512-h7sEAeLJrgSKuLDecT6NeHSUlbSwpS30IqGu21caM/sa//cWhp5J5D+MOZ0C5QM4GbJlZeEY1ZXXGVtI5m1arg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
     <script src="js/scripts-dist.js"></script>
 
 
